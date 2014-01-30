@@ -1,0 +1,18 @@
+README
+
+Files
+	Oscar.java
+	Database/DataBase.java
+			/Individual.java
+			/Movie.java
+
+Compile
+
+	> javac /Database/*.java
+	> javac *.java
+
+Run
+	
+	> java Oscar inputFile.csv LogFile
+
+	eg. > java Oscar oscars.csv LogFile.txt
