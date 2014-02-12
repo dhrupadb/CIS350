@@ -1,0 +1,33 @@
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+	<LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+
+		<TextView
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Welcome to Flappy Bird Killer!\n Make Strokes with your finger to kill the Flappy bird before it gets to the other end of the screen!\n
+3 times it get's away and you lose. 5 kills and you win! "/>
+	</LinearLayout>
+
+	<Button
+	    android:id="@+id/launch"
+	    android:text="Launch!" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="onLaunchButtonClick" />
+	
+	
+	<Button
+	    android:id="@+id/quit"
+	    android:text="Quit" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="onFinishButtonClick" />
+
+</LinearLayout>
